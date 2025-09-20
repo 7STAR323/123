@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Love Letter 🌌❤️</title>
+
+  <!-- Papernotes Font Include -->
+  <link href="https://fonts.cdnfonts.com/css/papernotes" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Papernotes', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #2e026d, #000428, #1a0033);
+      overflow-y: auto;
+      position: relative;
+      color: #fff;
+    }
+
+    /* Stars background */
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: twinkle 2s infinite alternate;
+    }
+
+    @keyframes twinkle {
+      from { opacity: 0.3; transform: scale(1); }
+      to { opacity: 1; transform: scale(1.3); }
+    }
+
+    /* Letter Box - Glass Effect */
+    .letter {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 0 25px rgba(255, 200, 255, 0.5);
+      max-width: 650px;
+      text-align: center;
+      z-index: 2;
+      animation: fadeIn 2s ease-in-out;
+      margin: 40px 20px;
+    }
+
+    h1 {
+      color: #ff8fcf;
+      margin-bottom: 20px;
+      font-size: 2.6rem;
+      text-shadow: 0 0 20px rgba(255, 100, 200, 0.8);
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #fff;
+      margin-bottom: 15px;
+      text-shadow: 0 0 8px rgba(255, 180, 255, 0.4);
+    }
+
+    .big-heart {
+      font-size: 3rem;
+      color: #ff4d6d;
+      animation: pulse 1.4s infinite;
+      margin-top: 20px;
+      text-shadow: 0 0 15px rgba(255, 77, 109, 0.8);
+    }
+
+    /* Floating Hearts */
+    .heart {
+      position: absolute;
+      bottom: -20px;
+      width: 22px;
+      height: 22px;
+      background: #ff4d6d;
+      transform: rotate(45deg);
+      animation: rise 9s linear infinite;
+      opacity: 0.7;
+    }
+    .heart::before, .heart::after {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      background: #ff4d6d;
+      border-radius: 50%;
+    }
+    .heart::before { top: -11px; left: 0; }
+    .heart::after { left: -11px; top: 0; }
+
+    @keyframes rise {
+      0% { transform: translateY(0) rotate(45deg); opacity: 0.7; }
+      50% { opacity: 1; }
+      100% { transform: translateY(-110vh) rotate(45deg); opacity: 0; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      p { font-size: 1.1rem; line-height: 1.8; }
+      .letter { padding: 20px; margin: 20px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Stars -->
+  <script>
+    for (let i = 0; i < 120; i++) {
+      const star = document.createElement('div');
+      star.className = 'star';
+      star.style.top = Math.random() * 100 + 'vh';
+      star.style.left = Math.random() * 100 + 'vw';
+      star.style.animationDuration = (1.5 + Math.random() * 2) + 's';
+      document.body.appendChild(star);
+    }
+  </script>
+
+  <div class="letter">
+    <h1>Wo Pyari Si Muskaan mat bhulna ❤️✨ (bohot cute lagti ho 🤭❤️)</h1>
+    <p>
+      Meri jaan ❤️ tum meri duniya ka sabse khoobsurat insaan ho tum ❤️✨ 
+      Tum meri khushi ho ❤️, meri dua ho ❤️, meri sukoon ho ❤️.  
+      Tum meri Radha ho ❤️ aur main tumhara Krishna… bas tum meri zindagi ka wo hissa ho jise main kabhi khona nahi chahta 🥺✨❤️.  
+    </p>
+    <p>
+      meri jaan ❤️ i love you soo much ❤️ mai hamehsa tumhare sath hu ❤️ or rahunga bhi hamesha hamesha kiliya meri zindagi ❤️
+      pata h maine galti kara h 🥺 or mai mature bhi nhi hu 🥺 per jo bhi hu tumhara hu meri jaan 🥺❤️
+      pata h maine tumhe hurt kiya h 🥺 per meri zindagi 🥺❤️ mai change ho jaunga na 🥺
+      bs todha sa time do mere ko 🥺 mai tumhe fir se disappoint nhi karunga 🥺❤️
+      tumhari liya best banunga meri zindagi 🥺❤️ tum he toh meri life ho 🥺❤️
+      or ha 🥺 reels dekh dekh kar overthinking mat karne lag jana mai yehi hu or nhi karunga uder ider 🥺
+      tumhe hurt nhi karunga meri zindagi 🥺❤️ trust me i love you my life 🥺❤️ You’re mine only mine 🥺❤️
+    </p>
+    <p>
+      Tum meri safe place ho… jaha main hamesha khud ko paata hu 🥺❤️.  
+      Tum meri duaon ka jawab ho, meri khwahishon ka sach ho ❤️✨.  
+      Agar mohabbat ek tasveer hoti, toh wo tumhari muskaan hoti 🌹.  
+    </p>
+    <p>
+      Aur yaad rakhna meri jaan,  
+      Jitna tum mujhse naraz hoti ho,  
+      Utna hi zyada tum par pyaar barasata hu ❤️🥺.  
+      Tum meri forever ho… meri hamesha ho… meri zindagi ho ❤️.  
+    </p>
+    <p>
+      meri zindagi 🥺❤️ tum meri wo ho jo mai kabhi kho nhi skta ❤️ khone se had se zyada darta hu 🥺
+      tumhari har ek muskaan Meri har pal ki khushi h ❤️ or tumhare bina sab kuch adhura h 🥺
+      hamara pyaar bhi kitna pyara h na ❤️ har roz ek plot twist hota h 😂❤️
+      har roz ek new ladai or ap bhi itna pyaar se naraz ho jati ho ❤️✨
+      fir ham dono mil kar solve karte h ❤️🥰 fir ham dono bhi kitna pyaar se wapis sab sahi karte h na 🥰
+      ladte bhi h toh itne pyar se 🥰❤️ or ha meri zindagi i love you soo much 🥰❤️ sab sahi ho jayega mera bacha ❤️
+      tumhe disappoint nhi karunga fir se ❤️ or ham bohot happy rahenge ❤️✨
+    </p>
+    <div class="big-heart">❤️</div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" autoplay loop>
+    <source src="https://www.dropbox.com/scl/fi/9ddymbtugfzcmmnnbcdve/Make-You-Mine-AMV-Anime-MV-__-MEP.mp3?rlkey=ugkc50lvd0gve9yncmuas5k0l&st=ut94wocy&dl=0&raw=1" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    // Floating hearts
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (6 + Math.random() * 5) + 's';
+      heart.style.transform = `scale(${Math.random() * 0.8 + 0.5}) rotate(45deg)`;
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 9000);
+    }
+    setInterval(createHeart, 350);
+
+    // Autoplay fix
+    window.addEventListener("click", () => {
+      const audio = document.getElementById("bg-music");
+      if (audio.paused) audio.play().catch(()=>{});
+    }, { once: true });
+  </script>
+</body>
+</html>
